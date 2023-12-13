@@ -20,4 +20,4 @@ setup(name='is-numeric',
           'Operating System :: OS Independent',
       ],
       python_requires='>=3.6',
-      keywords='is_numeric, number')
+      keywords='isnumeric, is_numeric, number, isnumber, is_number')
