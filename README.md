@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/is-numeric.svg)](https://badge.fury.io/py/is-numeric)
+
 # is-numeric
 
 Really simple.  A method to test if a value `is_numeric`.
