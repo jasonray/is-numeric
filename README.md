@@ -88,23 +88,23 @@ def _is_numeric_regex_plus_isnumeric(value):
 
 I ran a very non-scientific test.
 
-**Approach**
+**Approach**  
 Create a list of inputs, with a mix of float/int, strings that represent numeric values, and non-numeric values.
 Iterate x time over the list for a given algorithm.
 Repeat for each algorithm.
 
-**Variable**
+**Variable**  
 * % of inputs that are non-numeric (theory is that error-driven will perform better when the value is numeric, and less efficient when the value cannot be cast to float and an error is raised)
 
-**Findings**
+**Findings**  
 When most values are numeric [^1] (0-50%), the error-driven approach outperforms other approaches (up to 3x).  
 When most values are non-numeric [^2] (80%), the regex (plus str.isinstance) approach has a very slight advantage (4%).
 
-**Conclusion**
+**Conclusion**  
 without knowning the % of non-numeric values, it is recommended to use the error-driven approach.  As such, the error-drive approach is exposed through the `is_numeric` function in this package.
 
 
-### Raw Data
+### Raw Data  
 const: iterations=1000000
 
 | Algorithm                           | % Non-Numeric | Time in Seconds | Iterations per Second |
