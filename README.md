@@ -1,4 +1,5 @@
 [![PyPI version](https://badge.fury.io/py/is-numeric.svg)](https://badge.fury.io/py/is-numeric)
+[![Python package](https://github.com/jasonray/is-numeric/actions/workflows/python-package.yml/badge.svg)](https://github.com/jasonray/is-numeric/actions/workflows/python-package.yml)
 
 # is-numeric
 
