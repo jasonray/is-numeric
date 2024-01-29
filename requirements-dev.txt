@@ -1,4 +1,4 @@
 yapf == 0.40.2
 pylint == 3.0.2
-pytest == 7.4.3
+pytest == 8.0.0
 statman == 1.0.0
